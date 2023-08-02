@@ -7,7 +7,6 @@ import AOS from 'aos';
 import './App.css';
 
 const App = () => {
-
   React.useEffect(() => {
     AOS.init();
   }, []);
@@ -21,7 +20,7 @@ const App = () => {
   const [IsLoadingPlace, setIsLoadingPlace] = React.useState(false);
 
   React.useEffect(() => {
-    fetch('https://6425821f7ac292e3cf02aac6.mockapi.io/Posts')
+    fetch('https://64607fc3fe8d6fb29e31cd6d.mockapi.io/posts')
       .then((res) => {
         return res.json();
       })
@@ -68,8 +67,7 @@ const App = () => {
               referrerpolicy: 'no-referrer',
             },
           ]}
-        >
-        </Helmet>
+        ></Helmet>
         <Header />
       </div>
       <div className="AppContent">

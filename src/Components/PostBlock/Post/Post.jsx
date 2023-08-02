@@ -22,4 +22,3 @@ function Post(props) {
   );
 }
 export default Post;
-// Получаю id, c помощью id вытаскиваю все данные!!!! В main указываю data.Айди элемента! НЕ ЗАБУДЬ!

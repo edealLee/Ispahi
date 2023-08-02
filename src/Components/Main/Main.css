@@ -1,4 +1,4 @@
-.lock{
+.lock {
   overflow: hidden;
 }
 .modal {
@@ -46,7 +46,7 @@
   align-items: center;
   margin: 10px 0;
 }
-.modalWindowContentDescription span{
+.modalWindowContentDescription span {
   font-size: 14px;
   font-family: sans-serif;
   font-weight: bold;
@@ -55,28 +55,38 @@
 .modalWindowContentTitle h2 {
   font-size: 24px;
 }
-.modalWindowContentData{
+.modalWindowContentData {
   display: flex;
   justify-content: right;
   align-content: right;
   align-items: center;
   margin: 10px 0;
 }
-.modalWindowContentData p{
+.modalWindowContentData p {
   font-size: 14px;
   font-family: sans-serif;
   font-weight: bold;
 }
-.modalWindowContentText{
+.modalWindowContentText {
+  width: 500px;
+  word-wrap: break-word;
   height: 400px;
   overflow-y: scroll;
 }
-.modalWindowContentTitle{
+.modalWindowContentText::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50%;
+}
+.modalWindowContentText::-webkit-scrollbar-track {
+  background: transparent;
+}
+.modalWindowContentTitle {
   text-align: center;
 }
-.modalWindowContentText p{
+.modalWindowContentText p {
   font-size: 16px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
 }
 .modalWindowContentDescriptionDecorate {
   width: 16px;
@@ -151,7 +161,7 @@
   color: #000;
   text-decoration: underline;
 }
-.dataOfProjects{
+.dataOfProjects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,19 +191,19 @@
   color: #000;
   text-decoration: none;
 }
-.aboutContent{
+.aboutContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
 }
-.aboutContent{
+.aboutContent {
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
-.aboutContent ul{
+.aboutContent ul {
   list-style-type: circle;
 }
 
@@ -201,10 +211,10 @@
   .services_row {
     grid-template-columns: 1fr 1fr;
   }
-  .modalWindowContentTitle{
+  .modalWindowContentTitle {
     padding: 10px 0;
   }
-  .modalWindowContentText p{
+  .modalWindowContentText p {
     font-size: 15px;
   }
 }

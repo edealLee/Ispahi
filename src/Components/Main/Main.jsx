@@ -32,9 +32,9 @@ const Main = (props) => {
   }
 
   if (openPopup == true) {
-    body.classList.add("lock")
-  } else{
-    body.classList.remove("lock")
+    body.classList.add('lock');
+  } else {
+    body.classList.remove('lock');
   }
 
   return (
